@@ -1,5 +1,5 @@
 import pandas as pd
-from data import *
+from data.data import *
 
 def characters(df: pd.DataFrame) -> None:
     print(df)
