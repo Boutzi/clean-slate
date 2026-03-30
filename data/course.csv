@@ -1,0 +1,144 @@
+✅,COURS,CHAPITRE,IMPORTANCE
+FALSE,Algèbre linéaire,Vecteurs et espaces vectoriels,Accessoire
+FALSE,Algèbre linéaire,Matrices d'applications linéaires,Accessoire
+FALSE,Algèbre linéaire,Changement de système de coordonnées,Accessoire
+FALSE,Statistiques et probabilités,Séries statistiques à caractère qualitatif,Indispensable
+FALSE,Statistiques et probabilités,Représentation et comparaison de données quantitatives,Indispensable
+FALSE,Statistiques et probabilités,Résumer une série statistique à caractère quantitatif,Indispensable
+FALSE,Statistiques et probabilités,Modélisation des distributions des données,Indispensable
+FALSE,Statistiques et probabilités,"Probabilités de base (événements, conditionnelle, indépendance)",Important
+,,"0,00%",
+✅,COURS,CHAPITRE,IMPORTANCE
+TRUE,Bases,"Variables, types de données, listes, dictionnaires, tuples",Indispensable
+TRUE,Bases,"Boucles, conditions, fonctions, lambda",Indispensable
+FALSE,Bases,Gestion des erreurs (try/except),Indispensable
+,Bases,Modules et packages,Indispensable
+TRUE,Bases,Gestion d'environnements virtuels (venv),Indispensable
+TRUE,Bases,"Exercice : Créer un projet venv propre et installer les packages dont tu auras besoin plus tard (numpy, pandas, matplotlib, seaborn, jupyter).",Indispensable
+TRUE,NumPy,Création et manipulation de tableaux (arrays),Important
+FALSE,NumPy,"Opérations vectorielles (addition, multiplication, broadcasting)",Important
+FALSE,NumPy,"Indexation, slicing, reshaping",Important
+FALSE,NumPy,"Fonctions mathématiques (mean, std, sum, etc.)",Important
+FALSE,NumPy,Lecture/écriture de fichiers .npy,Accessoire
+FALSE,NumPy,"Exercice : Prendre un fichier CSV, le charger avec NumPy, calculer des statistiques simples (moyenne, écart-type, corrélations) sans utiliser Pandas.",Important
+FALSE,Pandas,Création de DataFrames et Series,Indispensable
+FALSE,Pandas,"Lecture/écriture de fichiers (CSV, JSON, Excel, SQL)",Indispensable
+FALSE,Pandas,"Nettoyage de données (missing values, duplicates, types)",Indispensable
+FALSE,Pandas,"Sélection et filtrage (loc, iloc, query)",Indispensable
+FALSE,Pandas,GroupBy et agrégations,Indispensable
+FALSE,Pandas,Merge / Join de DataFrames,Indispensable
+FALSE,Pandas,"Transformation de données (apply, map, replace)",Important
+FALSE,Pandas,Gestion des dates (datetime),Important
+FALSE,Pandas,"Exercices : Charger un gros dataset Kaggle (ex. Titanic ou House Prices), nettoyer complètement les données, faire 10 analyses différentes (group by, pivot, etc.)",Indispensable
+FALSE,Visualisation,"Matplotlib : bases (figures, subplots, styles)",Indispensable
+FALSE,Visualisation,"Seaborn : graphiques statistiques élégants (boxplot, heatmap, pairplot, etc.)",Indispensable
+FALSE,Visualisation,Plotly (optionnel mais très bien vu) : graphiques interactifs,Accessoire
+FALSE,Visualisation,"Exercice obligatoire : À partir du même dataset que Pandas, créer : 1 histogramme + boxplot, 1 heatmap de corrélations.",Indispensable
+,,"20,00%",
+✅,COURS,CHAPITRE,IMPORTANCE
+,Bases,"SELECT, WHERE, ORDER BY, LIMIT/OFFSET",Indispensable
+FALSE,Bases,"JOIN (INNER, LEFT, RIGHT, FULL, CROSS)",Indispensable
+FALSE,Bases,GROUP BY + HAVING,Indispensable
+,Bases,"Agrégations classiques (COUNT, SUM, AVG, MIN, MAX)",Indispensable
+,Bases,Sous-requêtes simples,Important
+,Bases,Exercices : Résoudre au moins 30 exercices sur PGExercises ou HackerRank. Refaire 5-6 requêtes existantes en les rendant plus propres et optimisées.,Indispensable
+FALSE,"Window functions, CTE, optimisation, index","Window functions : ROW_NUMBER(), RANK(), DENSE_RANK(), LAG(), LEAD(), SUM()/AVG()/COUNT() OVER(), PARTITION BY, ORDER BY dans la fenêtre",Important
+FALSE,"Window functions, CTE, optimisation, index","CTE (Common Table Expressions) : WITH … AS, CTE récursives (basiques)",Important
+FALSE,"Window functions, CTE, optimisation, index","Optimisation : EXPLAIN, EXPLAIN ANALYZE, utilisation d'index, query planning",Accessoire
+FALSE,"Window functions, CTE, optimisation, index","Index : Création (B-tree, Hash), quand et pourquoi les utiliser, impact sur les performances",Accessoire
+FALSE,"Window functions, CTE, optimisation, index","Exercice : Running total, RANK/DENSE_RANK, LAG/LEAD, 2-3 CTE. (EXPLAIN ANALYZE + index : skip)",Important
+,,"0,00%",
+✅,COURS,CHAPITRE,IMPORTANCE
+,PostgreSQL,"Relations & contraintes — Clés primaires / étrangères, contraintes (NOT NULL, UNIQUE, CHECK, DEFAULT), types de cardinalités (1:1, 1:N, N:N)",Indispensable
+FALSE,PostgreSQL,"Normalisation (1NF, 2NF, 3NF)",Important
+FALSE,PostgreSQL,Modélisation — Création de schémas (CREATE TABLE),Indispensable
+,PostgreSQL,Modélisation simple de Data Warehouse (star schema / snowflake),Accessoire
+,PostgreSQL,Index et performances de base,Accessoire
+,PostgreSQL,"Intégration Python — Connexion avec psycopg2, exécution de requêtes paramétrées, récupération des résultats en DataFrame Pandas",Indispensable
+FALSE,PostgreSQL,"Insertion / mise à jour massive de données (executemany, COPY, pandas to_sql)",Important
+FALSE,PostgreSQL,"Exercices : Modéliser et créer une base complète. Écrire un script Python qui se connecte, insère des lignes, exécute JOIN + GROUP BY, exporte en DataFrame Pandas.",Indispensable
+FALSE,NoSQL,Différences fondamentales relationnel vs document,Accessoire
+FALSE,NoSQL,Modélisation document (embedded vs referenced),Accessoire
+FALSE,NoSQL,Opérations CRUD avancées,Accessoire
+FALSE,NoSQL,Aggregation Pipeline,Accessoire
+FALSE,NoSQL,"Indexation (single field, compound, text)",Accessoire
+FALSE,NoSQL,Quand choisir MongoDB plutôt que PostgreSQL,Accessoire
+,,"0,00%",
+✅,COURS,CHAPITRE,IMPORTANCE
+,Bases et théorie,"Définition et cycle ETL (Extract, Transform, Load)",Indispensable
+FALSE,Bases et théorie,Différence entre Batch et Streaming (et quand utiliser l'un ou l'autre),Important
+FALSE,Bases et théorie,Notions de Data Pipeline vs Data Workflow,Important
+,Bases et théorie,"Orchestration (concept de base, sans entrer dans Airflow en détail)",Accessoire
+,Bases et théorie,"Qualité des données, idempotence, gestion des erreurs",Important
+,Bases et théorie,Cas d'usage réels en entreprise,Important
+FALSE,Bases et théorie,Exercice : Faire un schéma simple (Draw.io ou Excalidraw) d'un pipeline ETL complet. (Les 3 exemples Netflix/Uber/banque : optionnel),Important
+FALSE,Projet : API / CSV → Python → DB,Extract : lecture d'un fichier CSV,Indispensable
+FALSE,Projet : API / CSV → Python → DB,"Extract : appel à une API publique (ex. JSON Placeholder, OpenWeather, ou TMDB)",Important
+FALSE,Projet : API / CSV → Python → DB,"Transform : nettoyage, enrichissement, agrégations avec Pandas + NumPy",Indispensable
+FALSE,Projet : API / CSV → Python → DB,Load : insertion dans PostgreSQL (avec gestion des erreurs et logs),Indispensable
+FALSE,Projet : API / CSV → Python → DB,"Préparation (1 jour) : Choisir un dataset, créer un dossier projet propre avec venv",Indispensable
+FALSE,Projet : API / CSV → Python → DB,Extract (3–4h) : Lire CSV avec Pandas,Indispensable
+FALSE,Projet : API / CSV → Python → DB,Appeler une API avec requests et gérer la pagination si besoin,Important
+FALSE,Projet : API / CSV → Python → DB,"Transform (6–8h) : Nettoyage complet, enrichissement, agrégations",Indispensable
+FALSE,Projet : API / CSV → Python → DB,"Load (4–5h) : Connexion PostgreSQL, insertion massive, création des tables + contraintes",Indispensable
+FALSE,Projet : API / CSV → Python → DB,Bonus : Ajouter des logs (logging module),Bonus
+FALSE,Projet : API / CSV → Python → DB,Bonus : Gérer les erreurs (try/except + retry simple),Bonus
+FALSE,Projet : API / CSV → Python → DB,Bonus : Rendre le pipeline exécutable via un seul fichier main.py ou etl.py,Bonus
+FALSE,Projet : API / CSV → Python → DB,"Livrable final : Repo GitHub — requirements.txt, etl_pipeline.py, README avec schéma, capture BDD remplie",Indispensable
+,,"0,00%",
+✅,COURS,CHAPITRE,IMPORTANCE
+,Linux,"Commandes Linux de base en production (navigation, droits, processus, éditeur, packages)",Accessoire
+FALSE,Linux,"Serveur cloud distant — Créer une instance EC2 / VM Azure, connexion SSH",Accessoire
+FALSE,Linux,Installation PostgreSQL en CLI,Accessoire
+,Linux," Sécurité de base — Firewall, SSH, utilisateur non-root",Accessoire
+,Linux,Exercices : Linux / EC2,Accessoire
+,Docker,"Concepts de base — Container vs VM, image, Dockerfile, docker-compose, volumes et réseaux",Bonus
+FALSE,Docker,"Commandes essentielles — docker run, build, ps, logs, exec, compose up",Bonus
+FALSE,Docker,Containeriser un projet concret — pipeline ETL + PostgreSQL via docker-compose,Bonus
+FALSE,Docker,Livrable (bonus fort) : Dockerfile + docker-compose.yml + README avec captures,Bonus
+,,"0,00%",
+✅,COURS,CHAPITRE,IMPORTANCE
+,Complexité O(n),Comprendre ce qu'est la notation Big O,Important
+FALSE,Complexité O(n),"Les complexités les plus courantes : O(1), O(log n), O(n), O(n log n), O(n²)",Important
+FALSE,Complexité O(n),"Comment calculer la complexité d'une boucle, d'une fonction, d'un algorithme",Important
+,Complexité O(n),Application concrète en Data : temps d'exécution sur 10 lignes vs 1 million,Important
+,Complexité O(n),"Exercices : Analyser la complexité de 8-10 bouts de code simples, mesurer le temps réel avec le module time.",Important
+,Logique algorithmique,"Parcours linéaire, deux pointeurs, fenêtre glissante, recherche dichotomique, accumulateurs",Accessoire
+,,"0,00%",
+✅,COURS,CHAPITRE,IMPORTANCE
+,Power BI," Importation de données (CSV, PostgreSQL, API, Excel)",Indispensable
+FALSE,Power BI,Modélisation simple dans Power BI (relations entre tables),Indispensable
+FALSE,Power BI,"Création de visuels (graphiques, cartes, tableaux, jauges)",Indispensable
+,Power BI,"Mesures et colonnes calculées avec DAX (basique : SUM, AVERAGE, COUNT, CALCULATE, FILTER)",Indispensable
+,Power BI,"Filtres, slicers, drill-down",Indispensable
+,Power BI,Publication et partage d'un rapport,Important
+FALSE,Power BI,"Exercices : Connecter Power BI à PostgreSQL, créer un dashboard complet (KPI + graphiques + slicers + mesures DAX). Livrable : fichier .pbix + lien de partage.",Indispensable
+,,"0,00%",
+✅,COURS,CHAPITRE,IMPORTANCE
+,Supervisé / non supervisé, Supervisé : données étiquetées → prédiction (régression / classification),Bonus
+,Supervisé / non supervisé,Non supervisé : données non étiquetées → découverte de structure,Bonus
+,Supervisé / non supervisé,Renforcement : apprentissage par récompense,Accessoire
+,Types de modèles simples,Régression linéaire / logistique,Accessoire
+,Types de modèles simples,Arbres de décision / Random Forest,Accessoire
+,Types de modèles simples,K-Means (clustering),Accessoire
+FALSE,Types de modèles simples,PCA (réduction de dimension),Accessoire
+FALSE,Types de modèles simples,Notion de train/test/validation + overfitting,Accessoire
+,,"0,00%",
+✅,STACK,CHAPITRE,IMPORTANCE
+,PostgreSQL (4–6h),Modélisation : Schéma en 3NF ou star schema,Indispensable
+FALSE,PostgreSQL (4–6h),Modélisation : Tables + contraintes + index,Indispensable
+FALSE,PostgreSQL (4–6h),Modélisation : Données de test (via script SQL),Indispensable
+,Pipeline Python (10-12h),Extract : CSV + API (ex. : données météo ou ventes),Indispensable
+FALSE,Pipeline Python (10-12h),Transform : Pandas + NumPy + nettoyage,Indispensable
+FALSE,Pipeline Python (10-12h),Load : vers PostgreSQL (avec logging et gestion d’erreurs),Indispensable
+,API Flask (6–8 h),"Endpoints : GET /data, GET /stats, etc.",Accessoire
+FALSE,API Flask (6–8 h),Connexion à PostgreSQL,Accessoire
+,Power BI (5–8h),Visualisation : Dashboard connecté à la base : vue d'ensemble + analyse détaillée + mesures DAX,Indispensable
+,Next.js (5–8h),Option 2 : Petit front Next.js qui consomme l'API,Accessoire
+,GitHub,Livrable final : README détaillé + schéma du pipeline,Indispensable
+FALSE,GitHub,Livrable final : Code du pipeline Python,Indispensable
+FALSE,GitHub,Livrable final : Code de l’API,Accessoire
+FALSE,GitHub,Livrable final : Fichier .pbix (Power BI) ou lien du dashboard,Indispensable
+FALSE,GitHub,Livrable final : Docker-compose (optionnel mais très fort),Bonus
+FALSE,GitHub,Livrable final : Capture d'écran du dashboard final,Indispensable
+,,"0,00%",
